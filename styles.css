@@ -1,1 +1,37 @@
- 
+body {
+  background-color: #a463d8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  background: #5c2ea0;
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #451f75;
+}
+
+.stop {
+  background: #9b1c1c;
+}
+
+.stop:hover {
+  background: #6d1212;
+}
